@@ -26,7 +26,7 @@ public class _00_ArrayCheatSheet {
 		int[] fifty = new int[50];
 		
 		//7. use a for loop to make every value of the integer array a random number
-		for(int i=0; i<fifty.length; i++) {
+		for(int i=0; i<5; i++) {
 			fifty[i] = new Random().nextInt(50);
 		}
 		
